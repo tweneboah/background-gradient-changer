@@ -1,5 +1,5 @@
 
-let css = document.querySelector("h3");
+let css = document.querySelector("#color-code");
 let color1 = document.querySelector(".color1");
 let color2 = document.querySelector(".color2");
 var body = document.getElementById("body");
@@ -58,7 +58,7 @@ color2.addEventListener("input",function(){
          ", " +
          color2.value +
          ")";
-        css.textContent = body.style.background + ",";
+        css.textContent = body.style.background + ";";
  }
 
 color1.addEventListener("input", changeBackground);

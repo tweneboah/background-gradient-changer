@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>background Gradient Changer</title>
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Lobster+Two:400,700" rel="stylesheet">
   <!-- bootstrap css -->
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <!-- font-awesome -->
@@ -14,17 +16,28 @@
 
 <body id="body">
 
-  <section>
+  <section >
     <div class="container">
-      <div class="row height">
+      <div class="row height" id="position">
         <div class="col">
            <h2 class="text-center">Background Gradient Changer</h2>
-           <p class="text-center">Click to change</p>
-           <input class="color1" type="color" name="color1" value="#d35400">
+           <p class="text-center">Select the two palletes to apply </p>
+           <div class="color-selector">
+              <input class="color1 text-center" type="color" name="color1" value="#d35400">
 
-           <input class="color2" type="color" name="color1" value="#8e44ad">
-           <h2>Current CSS Background</h2>
-           <h3></h3>
+              <input class="color2 text-center" type="color" name="color1" value="#8e44ad">
+           </div>
+         
+           <p class="text-center">Current CSS Background</p>
+
+           <div id="color-code">
+           <p>Developed by: <a target="_blank" id="color-code" href="https://github.com/EmmanuelTweneboah">Emmanuel Tweneboah</a> </p>
+            
+           </div>
+           <div>
+            
+           </div>
+           
         </div>
 
       </div>
@@ -32,6 +45,7 @@
     </div>
 
   </section>
+  
 
 
   
