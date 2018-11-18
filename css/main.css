@@ -1,0 +1,10 @@
+body {
+     background: linear-gradient(to right, rgb(67, 21, 194), yellow)
+}
+
+
+.height {
+    height: 100vh;
+    padding-top: 30px;
+}
+
